@@ -1,0 +1,32 @@
+.btn {
+  
+    color: black;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    min-width: 30px;
+    padding: 10px 15px;
+    background-color: rgb(241, 127, 245);
+  
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: blueviolet;
+}
+
+.input {
+border-radius: 10px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border: 2px solid rgba(0, 0, 0, 0.2);
+margin-bottom: 10px;
+
+}
+.input:hover,
+.input:focus {
+    border-color: blue;
+}

@@ -1,0 +1,33 @@
+.link{
+   
+    color: black;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    min-width: 30px;
+    padding: 10px 15px;
+    background-color: rgb(241, 127, 245);
+  
+}
+a
+{
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    background-color: blueviolet;
+}
+.active {
+    border-bottom: 4px solid rgba(19, 18, 18, 0.418);
+}
+.conteiner {
+    margin-left: auto;
+    padding: 15px 10px;
+ 
+    display: flex;
+    justify-content: center;
+}

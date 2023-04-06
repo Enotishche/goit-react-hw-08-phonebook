@@ -10,8 +10,7 @@ const handlePending = state => {
     state.error = action.payload;
   };
   
-
-  const contactsSlice = createSlice({
+  export const contactsSlice = createSlice({
     name: 'contacts',
     initialState: {
       contacts: [],
@@ -32,7 +31,6 @@ const handlePending = state => {
         state.isLoading = false;
         state.error = null;
         state.contacts.push(payload);
-        console.log('payload', payload);
       },
   
       [addContact.rejected]: handleRejected,
@@ -49,4 +47,3 @@ const handlePending = state => {
       [removeContact.rejected]: handleRejected,
     },
   });
-  export const contactsReducer = contactsSlice.reducer;

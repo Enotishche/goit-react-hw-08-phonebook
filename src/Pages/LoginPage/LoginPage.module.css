@@ -1,0 +1,8 @@
+.container {
+    width: 500px;
+    margin: 20px auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgb(94, 195, 235);
+    padding: 40px;
+    border-radius: 10px;
+}

@@ -1,0 +1,13 @@
+.navbar {
+    padding: 15px 10px;
+    background-color: rgb(94, 195, 235);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
